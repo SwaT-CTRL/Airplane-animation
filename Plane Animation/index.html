@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<img class="airPlane" src="plane.png" width="auto" />
+		<img class="cloud" src="cloud.png">
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	var myImg = document.getElementById('myImg'); 
+
+	myImg.onclick = function () {
+		if (clouods.style.webkitAnimationPlayState == "paused") {
+			clouods.style.webkitAnimationPlayState == "running";
+			airplane.style.webkitAnimationPlayState == "running";
+			hotairballoon.style.webkitAnimationPlayState == "running";
+		}
+		else{
+			clouods.style.webkitAnimationPlayState == "running";
+			airplane.style.webkitAnimationPlayState == "running";
+			hotairballoon.style.webkitAnimationPlayState == "running";
+		}
+	}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
